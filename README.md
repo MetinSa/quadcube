@@ -1,8 +1,8 @@
 # quadcube
 
-Library that currently provide one method `pix2vec` for converting between quadcube res15 pixel number to ecliptic unit vectors.
+Python library (written in rust) that currently provide one method `pix2vec` for converting between quadcube res15 pixel number to ecliptic unit vectors.
 
-The code is a reimplementation of original COBE DIRBE provided by A.J. Banday. See the [COBE Explanatory Supplement](https://lambda.gsfc.nasa.gov/product/cobe/dirbe_exsup.html) for more information.
+The code is a reimplementation of parts of the COBE DIRBE map binning routines provided by A.J. Banday. See the [COBE Explanatory Supplement](https://lambda.gsfc.nasa.gov/product/cobe/dirbe_exsup.html) for more information.
 
 ## Install
 `pip install quadcube`
