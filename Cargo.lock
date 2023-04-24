@@ -412,7 +412,7 @@ dependencies = [
 
 [[package]]
 name = "quadcube"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "cached",
  "numpy",
