@@ -140,7 +140,7 @@ mod rust_fn {
             2 => [-x_i * norm, norm, eta * norm],
             3 => [-norm, -x_i * norm, eta * norm],
             4 => [x_i * norm, -norm, eta * norm],
-            5 => [eta * norm, -x_i * norm, norm],
+            5 => [eta * norm, x_i * norm, -norm],
             _ => panic!("Invalid face number: {}", n_face),
         }
     }
